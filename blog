@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #f4f4f4;margin: 0px;padding: 0px;">
+    <Header style="background-image: url(https://active-vision.ru/wa-data/public/blog/img/p16-1.jpg);background-size: cover; color: white; padding:150px;text-align: center;">
+        
+        <h1>Бортовой журнал путешествий</h1>
+        
+    </Header>
+    <nav style="background-color: black;color: white; padding: 10px;text-align: center;">
+        <ul style="list-style: none;margin: 0%;padding: 0%; font-size: 22px;">
+            <li style="display: inline;"><a href="#asia" style="color: white;text-decoration: none;">Азия</a></li>
+            <li style="display: inline;padding: 60px;"><a href="#europe" style="color: white;text-decoration: none;">Европа</a></li>
+            <li style="display: inline;"><a href="#america" style="color: white;text-decoration: none;">Америка</a></li>
+          </ul>
+    </nav>
+
+    <main >
+        <article id="asia" style="margin:20px;padding:20px; background-color: #fff; border-radius: 5px;box-shadow:0 0 10px rgba(0, 0, 0, 0.1);">
+            <h2 style="color: black;">Путешествие по Азии</h2>
+            <img style="width: 20%;height: 200px; overflow: hidden;" src="https://img.freepik.com/free-vector/map-of-asia-in-flat-style_23-2147781668.jpg?w=826&t=st=1702192548~exp=1702193148~hmac=e6c3eec0e229b2acc3d1e5e01163cf6bd2d0f64c63f2fa476517068cb4834ffb" alt="картинка Азии">
+            <p style="color: #666;">Описание путешествия по Азии</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BU0OcbaPrjw?si=dUWFv2BH1ZBLDLzI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fvY2NOnw4Ig?si=Mtgiw-7tA26L2TKA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+            <article  id="europe" style="margin:20px;padding:20px; background-color: #fff; border-radius: 5px;box-shadow:0 0 10px rgba(0, 0, 0, 0.1);">
+                <h2>Путешествие по Европе</h2>
+                <img src="https://img.freepik.com/free-vector/decorative-europe-map_23-2147620160.jpg?w=826&t=st=1702195636~exp=1702196236~hmac=2333a41e98de0de5c5610cd15fd24d2236b27630c7c81eb331eee25a6d4e72d9" style="width: 20%;" alt="картинка Европы">
+                <p style="color: #666;">Описание путешествия по Европе</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GpMc9zqS6V8?si=0uXc6TF7nXM6pEYk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <video controls width="260" height="315" src="video_2023-12-08_14-23-41.mp4"></video>
+            </article>
+            <article id="america" style="margin:20px;padding:20px; background-color: #fff; border-radius: 5px;box-shadow:0 0 10px rgba(0, 0, 0, 0.1);">
+                <h2>Путешествие по Америке</h2>
+                <img src="https://abc-decor.com/img/gallery/52/thumbs/thumb_l_26741.jpg" style="width: 20%;" alt="картинка Азии">
+                <p style="color: #666;">Описание путешествия по Америке</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XvyyHGsMzb4?si=f1rAxqnu0Pon06fG" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </article>
+    </main>
+
+    <footer style="background-color: black; 
+    color: white; 
+    text-align: center; 
+    padding: 10px;
+    bottom: 0;
+    width:100%;">
+        <p>© 2023 Бортовой журнал путешествий</p>
+        <address> <a href=https://t.me/marinka_travel style="color: antiquewhite;text-decoration:none;">telegram @marinka_travel</a>
+           </address>
+    </footer>
+    
+</body>
+</html>
