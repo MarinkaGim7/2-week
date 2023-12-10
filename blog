@@ -21,6 +21,7 @@
 
     <main >
         <article id="asia" style="margin:20px;padding:20px; background-color: #fff; border-radius: 5px;box-shadow:0 0 10px rgba(0, 0, 0, 0.1);">
+            
             <h2 style="color: black;">Путешествие по Азии</h2>
             <img style="width: 20%;height: 200px; overflow: hidden;" src="https://img.freepik.com/free-vector/map-of-asia-in-flat-style_23-2147781668.jpg?w=826&t=st=1702192548~exp=1702193148~hmac=e6c3eec0e229b2acc3d1e5e01163cf6bd2d0f64c63f2fa476517068cb4834ffb" alt="картинка Азии">
             <p style="color: #666;">Описание путешествия по Азии</p>
@@ -48,7 +49,7 @@
     padding: 10px;
     bottom: 0;
     width:100%;">
-        <p>© 2023 Бортовой журнал путешествий</p>
+        <p> &copy; 2023 Бортовой журнал путешествий</p>
         <address> <a href=https://t.me/marinka_travel style="color: antiquewhite;text-decoration:none;">telegram @marinka_travel</a>
            </address>
     </footer>
