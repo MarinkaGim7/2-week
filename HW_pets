@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: honeydew;">
+   <h2>Анкета для владельца животного</h2> 
+   <form action="script.php" method="post">
+    <div> 
+        <b> <label for="name">Кличка питомца</label> </b>
+        <input type="text" placeholder="кличка" id="name">
+    </div>
+    <div> <br> 
+        <b> <label for="fio">Имя владельца</label> </b>
+        <input type="text" placeholder="ФИО" id="fio">
+     </div>
+     <br>
+    <fieldset> 
+        <legend>Контакты владельца</legend>
+    <div>
+        <input type="tel" placeholder="телефон" id="contacts"> <br>
+        <br><input type="email" placeholder="email" id="email"> </div>
+</fieldset>
+<br>
+<div> 
+    <b><label for="animal-select">Вид питомца</label> </b>
+    <select name="animal" id="animal-select">
+        <option value="">--Выберите вид животного--</option>
+        <option value="cat">Кошка</option>
+        <option value="dog">Собка</option>
+        <option value="bird">Птица</option>
+        <option value="snake">Змея</option>
+        <option value="rodent">Грызун</option>
+        <option value="fish">Рыба</option>
+    </select> 
+</div> 
+<br>
+    <fieldset>
+        <legend>Пол питомца</legend> 
+        <div> 
+     Самка <input type="radio" name="sex" id="gender"> <br>
+Самец <input type="radio" name="sex" id="gender2"> </div> 
+</fieldset> 
+<div> <br>
+    <b><label for="food"> Чем питается:</label> <br> </b>
+    <input type="checkbox" name="1" id="food">
+    Сухой корм <br>
+    <input type="checkbox" name="2" id="food2">
+    Влажный корм <br>
+    <input type="checkbox" name="3" id="food3">
+    Натуральный корм <br>
+</div> 
+    <div> <br>
+        <b><label for="comment">Комментарий:</label> <br> </b>
+        <textarea name="comment" id="comment" cols="30" rows="3"></textarea>
+    </div> 
+    <div> <br>
+        <b><label for="foto">Приложите фото питомца</label> <br> </b>
+        <input type="file" id="foto">
+    </div> 
+    <div> <br>
+        <button type="submit">Сохранить</button></div>
+   </form>
+</body>
+</html>
